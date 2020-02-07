@@ -35,7 +35,7 @@ public class Runner extends Utils {
 			String direction = Utils.direction();
 
 			if (direction.equalsIgnoreCase("north")) {
-				playerPosX = playerPosX + 10;
+				playerPosX = playerPosX + 1;
 				System.out.println(Math.hypot(x, y) + "Meters Away");
 
 			} else if (direction.equalsIgnoreCase("south")) {
